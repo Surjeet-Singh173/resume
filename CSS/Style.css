@@ -232,6 +232,9 @@
     #professional-summary-div ul li{
 	    line-height:2.5rem;
     }
+    #professional-summary-div ul{
+	    padding:40px;
+    }
 
                                             /* SKILL SECTION EDITING */
 
