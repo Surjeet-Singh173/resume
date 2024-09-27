@@ -647,7 +647,7 @@ textarea:focus{
                 
 @media screen and (max-width:600px){
     body{
-      width:100vw;
+      min-width:100vw;
     }
     .timeline-divider-education,  .timeline-divider{
     
