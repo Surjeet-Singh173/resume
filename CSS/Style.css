@@ -80,6 +80,7 @@ body{
 #body-header{
 
     height:65vh;
+    width:100vw;
     background-image: url(../Attachments/Background_Image.jpg);
     background-size: cover;
     background-position: center;
@@ -642,10 +643,12 @@ textarea:focus{
 }
 
                                                         /* Responsiveness Edditing */
-
-                        /* Work experience */
-
+            /*Adjustment for mobile width*/
+                
 @media screen and (max-width:600px){
+    body{
+      width:100vw;
+    }
     .timeline-divider-education,  .timeline-divider{
     
         left:3%;
