@@ -735,14 +735,15 @@
 
         input:focus{
           
-          max-width:160px;
+          max-width:70px;
+	  min-width:70px;
         
         }
         
         textareaa:focus{
           
-          max-width:160px;
-        
+          max-width:70px;
+	  min-width:70px;
         }
       
         #get-in-touch{
@@ -756,7 +757,7 @@
         
         }
         
-				#get-in-touch p{
+	#get-in-touch p{
         
           font-size:1rem;
           color: white;
@@ -765,15 +766,15 @@
 				
         #get-in-touch li{
 				
-      		list-style: none;
+          list-style: none;
           font-size: 1.2rem;
           margin:1rem;
         }
 				
         .font-styling{
 				
-        	font-size: 1rem;
-        	font-family: sans-serif;
+          font-size: 1rem;
+          font-family: sans-serif;
           font-weight: 450;
           margin: 0px;
     		
