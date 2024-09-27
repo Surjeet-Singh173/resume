@@ -664,22 +664,22 @@
         .timeline-divider-education{
         
             top:-2.7%;
-            height:70%;
+            height:69.5%;
         
         }
         
         .timeline-divider{
         
-            height:53%;
+            height:60%;
             top:-2.3%;
 
         }
         
         .timeline-divider-certification{
         
-            height:72%;
+            height:70%;
             top:0%;
-            left:14%;
+            left:13.7%;
         
         }
         
@@ -824,7 +824,7 @@
             width:15vw;
             min-width:180px;
             height:2.5vh;
-            min-height:1rem;
+            min-height:1.5rem;
             border-radius: 30px;
             box-shadow: 0px  0px 6px 4px lavender;
             margin:auto;
