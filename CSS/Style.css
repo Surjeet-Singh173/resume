@@ -543,7 +543,7 @@
         border: 0px;
         border-bottom:3px solid white;
         padding-bottom: 1px;
-        min-width:180px;
+        min-width:200px;
         padding-left: 20px;
         overflow: hidden;
 
@@ -564,7 +564,7 @@
         background: transparent;
         border:3px solid white;
         border-radius: 30px;
-        min-width:130px; 
+        min-width:140px; 
         color:white;
         font-size: 2rem;
     }
@@ -592,7 +592,7 @@
         border-left: 5px solid lightseagreen; 
         padding-left: 20px;
         font-size:2rem;
-        min-width:300px;
+        min-width:200px;
         max-width: 40%;
 
     }
@@ -614,7 +614,7 @@
         border-bottom-right-radius: 30px;
         padding-left: 20px;
         font-size:2rem;
-        min-width:300px;
+        min-width:200px;
         max-width: 40%;
 
     }
@@ -733,17 +733,17 @@
         
         }
 
-        input:focus{
+        input:focus, textareaa:focus{
           
-          max-width:70px;
-	  min-width:70px;
+          max-width:180px;
+	  min-width:180px;
         
         }
         
-        textareaa:focus{
+        input, textarea{
           
-          max-width:70px;
-	  min-width:70px;
+          max-width:180px;
+	  min-width:180px;
         }
       
         #get-in-touch{
@@ -844,6 +844,7 @@
 
         button{
             margin-left: 30px;
+	    max-width:100px;
         }
 
         .skills-div{
