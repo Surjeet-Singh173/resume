@@ -1,4 +1,85 @@
-                                        /* GENERAL CLASSES AND TAGS*/
+                                                        /* Responsiveness Edditing */
+            /*Adjustment for mobile width*/
+                
+@media only screen and (min-width:600px){
+    body{
+      min-width:100vw;
+    }
+    .timeline-divider-education,  .timeline-divider{
+    
+        left:3%;
+    
+    }
+    
+    .timeline-divider-education{
+    
+        top:-1.5%;
+        height:71%;
+    
+    }
+    
+    .timeline-divider{
+    
+        height:48.5%;
+        top:-1.8%;
+
+    }
+    
+    .timeline-divider-certification{
+    
+        height:73%;
+        top:0.9%;
+        left:6.4%;
+    
+    }
+    
+    .timeline-box{
+    
+        left: 10%;
+        width:70vw;
+        min-width: 70vw;
+    
+    }
+
+    .timeline-box:nth-child(2n){
+    
+        margin-left:10%;
+    
+    }
+    
+    .timeline-box:nth-child(2n+1)::before{
+    
+        left:-75%;
+    
+    }
+    
+    .timeline-box:nth-child(2n)::before{
+    
+        left:47%;
+        top:11%;
+    
+    }
+
+    .timeline-divider-education span{
+
+        margin-left:-1.1rem;
+    
+    }
+
+    #get-in-touch{
+
+        display:block;
+        color:white;
+        margin-right:10px;
+        max-width: 90%;
+        min-width: 550px;
+        margin-left:10px;
+    
+    }
+
+}
+
+                                                    /* GENERAL CLASSES AND TAGS*/
 
 .text-center{
 
@@ -642,83 +723,3 @@ textarea:focus{
 
 }
 
-                                                        /* Responsiveness Edditing */
-            /*Adjustment for mobile width*/
-                
-@media only screen and (max-width:600px){
-    body{
-      min-width:100vw;
-    }
-    .timeline-divider-education,  .timeline-divider{
-    
-        left:3%;
-    
-    }
-    
-    .timeline-divider-education{
-    
-        top:-1.5%;
-        height:71%;
-    
-    }
-    
-    .timeline-divider{
-    
-        height:48.5%;
-        top:-1.8%;
-
-    }
-    
-    .timeline-divider-certification{
-    
-        height:73%;
-        top:0.9%;
-        left:6.4%;
-    
-    }
-    
-    .timeline-box{
-    
-        left: 10%;
-        width:70vw;
-        min-width: 70vw;
-    
-    }
-
-    .timeline-box:nth-child(2n){
-    
-        margin-left:10%;
-    
-    }
-    
-    .timeline-box:nth-child(2n+1)::before{
-    
-        left:-75%;
-    
-    }
-    
-    .timeline-box:nth-child(2n)::before{
-    
-        left:47%;
-        top:11%;
-    
-    }
-
-    .timeline-divider-education span{
-
-        margin-left:-1.1rem;
-    
-    }
-
-    #get-in-touch{
-
-        display:block;
-        color:white;
-        margin-right:10px;
-        max-width: 90%;
-        min-width: 550px;
-        margin-left:10px;
-    
-    }
-
-}
