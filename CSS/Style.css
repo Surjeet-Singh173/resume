@@ -1,6 +1,4 @@
-
-
-                                                    /* GENERAL CLASSES AND TAGS*/
+                                        /* GENERAL CLASSES AND TAGS*/
 
 .text-center{
 
@@ -73,7 +71,6 @@ a{
 body{
 
     margin: 0px;
-    width: 100%;
 
 }
 
@@ -82,7 +79,6 @@ body{
 #body-header{
 
     height:65vh;
-    width:100vw;
     background-image: url(../Attachments/Background_Image.jpg);
     background-size: cover;
     background-position: center;
@@ -645,12 +641,10 @@ textarea:focus{
 }
 
                                                         /* Responsiveness Edditing */
-            /*Adjustment for mobile width*/
-                
-@media screen and (min-width:600px){
-    body{
-      min-width:100vw;
-    }
+
+                        /* Work experience */
+
+@media screen and (max-width:600px){
     .timeline-divider-education,  .timeline-divider{
     
         left:3%;
@@ -724,3 +718,7 @@ textarea:focus{
     }
 
 }
+
+
+
+
