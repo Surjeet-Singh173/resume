@@ -227,7 +227,10 @@
 
     #professional-summary-div{
         margin-bottom:20px;
-        padding:10px;
+        padding:40px;
+    }
+    #professional-summary-div ul li{
+	    line-height:2.5rem;
     }
 
                                             /* SKILL SECTION EDITING */
@@ -524,7 +527,7 @@
     #form-container{
         display: inline-block;
         
-        min-width:300px;
+        min-width:340px;
         width:40%;
         margin-left:20%;
         max-width:40%;
@@ -544,7 +547,7 @@
         border: 0px;
         border-bottom:3px solid white;
         padding-bottom: 1px;
-        min-width:200px;
+        min-width:300px;
         padding-left: 20px;
         overflow: hidden;
 
@@ -565,7 +568,7 @@
         background: transparent;
         border:3px solid white;
         border-radius: 30px;
-        min-width:140px; 
+        min-width:150px; 
         color:white;
         font-size: 2rem;
     }
