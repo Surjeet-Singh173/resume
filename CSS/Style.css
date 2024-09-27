@@ -647,7 +647,7 @@ textarea:focus{
                                                         /* Responsiveness Edditing */
             /*Adjustment for mobile width*/
                 
-@media only screen and (max-width:600px){
+@media screen and (max-width:600px){
     body{
       min-width:100vw;
     }
