@@ -657,7 +657,7 @@
     @media screen and (max-width:600px){
         .timeline-divider-education,  .timeline-divider{
         
-            left:3%;
+            left:8%;
         
         }
         
@@ -670,16 +670,16 @@
         
         .timeline-divider{
         
-            height:44%;
-            top:-2.7%;
+            height:48%;
+            top:-2.3%;
 
         }
         
         .timeline-divider-certification{
         
-            height:66%;
+            height:69%;
             top:0%;
-            left:6.4%;
+            left:15%;
         
         }
         
@@ -795,8 +795,46 @@
     
         }
 
+        #outer-container{
+        
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width:100%;
+    
+        }
+
+        #form-container{
+
+            display: block;
+            margin:auto; 
+            min-width:200px;
+            width:40%;    
+        }
+
         button{
             margin-left: 30px;
+        }
+
+        .skills-div{
+
+            border:2px solid lavender;
+            display: block;
+            width:15vw;
+            min-width:180px;
+            height:2.5vh;
+            min-height:1rem;
+            border-radius: 30px;
+            box-shadow: 0px  0px 6px 4px lavender;
+            margin:auto;
+            margin-bottom: 30px;
+    
+        }
+        .skill-container{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
         }
 
     }
